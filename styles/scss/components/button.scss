@@ -1,0 +1,17 @@
+.button {
+  padding: 0.5em 1.2em;
+  border-radius: 1em 0 1em 0;
+  background-color: $button-color;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  transition: 0.5s;
+
+  a {
+    color: $button-text;
+  }
+
+  &:hover {
+    background-color: $button-hover;
+  }
+}

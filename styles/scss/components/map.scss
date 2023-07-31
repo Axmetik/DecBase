@@ -1,0 +1,19 @@
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 2em 0;
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    padding-bottom: 1em;
+  }
+  .map {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

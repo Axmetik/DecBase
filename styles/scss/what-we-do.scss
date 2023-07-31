@@ -1,0 +1,98 @@
+.what-we-do {
+  position: relative;
+  &__container {
+  }
+
+  &__text-block {
+    .subtitle {
+    }
+
+    .title {
+      font-size: 3em;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 3em;
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2em;
+      border: 4px solid $button-color;
+      width: 200px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        color: $button-color;
+      }
+    }
+  }
+  .active {
+    background-color: #fff;
+    color: $button-color;
+  }
+
+  &__items {
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    //justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+  }
+
+  &__item {
+    -webkit-box-shadow: 2px 3px 5px 1px #767676;
+    -moz-box-shadow: 2px 3px 5px 1px #767676;
+    box-shadow: 2px 3px 5px 1px #767676;
+    background-color: #fff;
+    border-radius: 3em 0 3em 0;
+    padding: 2em;
+    display: flex;
+    justify-content: end;
+  }
+
+  &__content {
+    padding-left: 3em;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: -1em;
+    }
+  }
+
+  &__item-title {
+    font-weight: 600;
+  }
+
+  &__item-text {
+    color: $text-block-color;
+    max-height: 3em;
+  }
+
+  .architecture {
+    background-color: $architecture-color;
+    color: #fff;
+
+    p {
+      color: #fff;
+    }
+  }
+
+  .decor {
+    position: absolute;
+    top: -20em;
+    left: 0;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.header {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  padding: 1em 0 0 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  text-transform: uppercase;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    min-width: 90px;
+  }
+
+  &__navigation {
+  }
+
+  &__menu {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+
+    li a {
+      transition: 0.5s;
+      border: 1px solid #fff;
+      border-radius: 0.4em;
+      padding: 0.4em;
+
+      &:hover {
+        color: #37806b;
+        border: 1px solid #37806b;
+      }
+    }
+  }
+
+  .sign-up {
+    background-color: $sign-up-button;
+    text-transform: none;
+    a {
+      color: #fff;
+      border: 0;
+
+      &:hover {
+        color: #fff;
+        border: 0;
+      }
+    }
+
+    &:hover {
+      background-color: #b59783;
+    }
+  }
+
+  .scroll-line {
+    background: #37806b;
+    height: 3px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}

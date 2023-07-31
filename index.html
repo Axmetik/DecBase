@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,regular,500,,600,700,800,"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/css/normalize.css" />
+    <link rel="stylesheet" href="./styles/css/style.css" />
+    <title>DecBase</title>
+  </head>
+  <body>
+    <div class="mask">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header__container">
+          <div class="header__content">
+            <div class="header__logo">
+              <a href="#"><img src="img/header/logo.svg" alt="logo" /></a>
+            </div>
+            <nav class="header__navigation">
+              <ul class="header__menu">
+                <li><a href="#create-your">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#map">Shop</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li class="sign-up button"><a href="#sign-up">Sign Up</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="scroll-line"></div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="create-your" id="create-your">
+          <div class="create-your__container">
+            <div class="text-block create-your__text-block">
+              <span class="subtitle create-your__subtitle"
+                >MODERN INTERIOR</span
+              >
+              <h1 class="title create-your__title">
+                Create Your Interior Design.
+              </h1>
+              <p class="text create-your__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+              <div class="create-your__button">
+                <div class="button"><a href="">CONTACT</a></div>
+              </div>
+            </div>
+            <div class="create-your__image">
+              <img src="./img/main/create-your/create-your.png" alt="house" />
+              <img
+                class="image__decor"
+                src="./img/main/create-your/create-your-decor.png"
+                alt="house"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="what-we-do" id="services">
+          <div class="what-we-do__container">
+            <div class="text-block what-we-do__text-block">
+              <span class="subtitle what-we-do__subtitle">WHAT WE DO</span>
+              <h2 class="title what-we-do__title">Our Service</h2>
+            </div>
+            <div class="what-we-do__buttons">
+              <a name="all" class="button what-button active">ALL</a>
+              <a name="design" class="button what-button">INTERIOR DESIGN</a>
+              <a name="architecture" class="button what-button">ARCHITECTURE</a>
+              <a name="planning" class="button what-button">PLANNING</a>
+            </div>
+            <div class="what-we-do__items" id="about-us"></div>
+          </div>
+          <div class="decor">
+            <img src="./img/main/about-us/decor.png" alt="decor" />
+          </div>
+        </section>
+        <section class="about-us">
+          <div class="about-us__container">
+            <div class="about-us__image">
+              <img src="./img/main/about-us/about-us.png" alt="house" />
+              <img
+                class="image__decor"
+                src="./img/main/about-us/about-us-decor.png"
+                alt="house"
+              />
+            </div>
+            <div class="text-block about-us__text-block">
+              <span class="subtitle about-us__subtitle">ABOUT US</span>
+              <h2 class="title about-us__title">
+                Interioris The Will of An Epoch Mextreo
+              </h2>
+              <p class="text about-us__text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form injected
+                humour, or randomised words which don't look even slightly
+                believable.If you are going to use a passage of Lorem Ipsum,
+                sure there isn't anything embarrassing hidden the middleof text.
+                All the Lorem Ipsum generators on the Internettend to repeat
+                predefined chunks as necessary,making this the first true
+                generator on the Internet.
+              </p>
+              <div class="about-us__button">
+                <div class="button"><a href="#">LEARN MORE</a></div>
+              </div>
+            </div>
+            <div class="decor">
+              <img src="./img/main/about-us/decor.png" alt="decor" />
+            </div>
+          </div>
+        </section>
+        <section class="years-of-working">
+          <div class="years-of-working__container">
+            <div class="text-block years-of-working__text-block">
+              <h3 class="years-of-working__text">20</h3>
+              <h2 class="title years-of-working__title">
+                Years Of Successful<br />
+                Working<br />
+                The Market
+              </h2>
+              <div class="years-of-working__button">
+                <div class="button"><a href="#">READ MORE</a></div>
+              </div>
+            </div>
+            <div class="years-of-working__image">
+              <img
+                src="./img/main/years-of-working/years-of-working.png"
+                alt="years-of-working-image"
+              />
+              <img
+                class="image__decor"
+                src="./img/main/years-of-working/years-of-working-decor.png"
+                alt="decor"
+              />
+            </div>
+          </div>
+          <div class="decor">
+            <img src="./img/main/about-us/decor.png" alt="decor" />
+          </div>
+        </section>
+        <section class="completed-work" id="project">
+          <div class="completed-work__container">
+            <h2 class="completed-work__title">
+              3000+ Completed Work<br />
+              Which WE have Successfully Done
+            </h2>
+            <div class="completed-work__items">
+              <div class="completed-work__item">
+                <span class="completed-work__number"> 980 </span>
+                <p class="completed-work__text">Project</p>
+              </div>
+              <div class="completed-work__item">
+                <span class="completed-work__number"> 520 </span>
+                <p class="completed-work__text">Happy Client</p>
+              </div>
+              <div class="completed-work__item">
+                <span class="completed-work__number"> 330 </span>
+                <p class="completed-work__text">Winners</p>
+              </div>
+              <div class="completed-work__item">
+                <span class="completed-work__number"> 120 </span>
+                <p class="completed-work__text">Recoment</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonials">
+          <div class="testimonials__container">
+            <div class="text-block testimonials__text-block">
+              <span class="subtitle testimonials__subtitle">TESTIMONIALS</span>
+              <h2 class="title testimonials__title">Client says about us</h2>
+            </div>
+            <div class="testimonials__content">
+              <div class="testimonials__swiper swiper">
+                <div class="testimonials__swiper-wrapper swiper-wrapper">
+                  <!-- ------------------------------------------------ -->
+                  <div class="swiper-slide testimonials__slide">
+                    <div class="slide-wrapper">
+                      <div class="testimonials__paragraph">
+                        <span class="testimonials__name">Larry Banson</span>
+                        <span class="testimonials__position"
+                          >/CEO of company</span
+                        >
+                        <p class="testimonials__text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.
+                        </p>
+                        <i class="fa-solid fa-quote-right quotes"></i>
+                      </div>
+                      <img
+                        src="./img/main/testimonials/photo1.png"
+                        alt="photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-slide testimonials__slide">
+                    <div class="slide-wrapper">
+                      <div class="testimonials__paragraph">
+                        <span class="testimonials__name">Monica Armas</span>
+                        <span class="testimonials__position"
+                          >/Main designer</span
+                        >
+                        <p class="testimonials__text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit.
+                        </p>
+                        <i class="fa-solid fa-quote-right quotes"></i>
+                      </div>
+                      <img
+                        src="./img/main/testimonials/photo2.png"
+                        alt="photo"
+                      />
+                    </div>
+                  </div>
+                  <!-- ------------------------------------------------ -->
+                </div>
+                <div class="arrows testimonials__arrows">
+                  <div class="arrow-left testimonials-arrow-left"><</div>
+                  <div class="arrow-right testimonials-arrow-right">></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="from-our-blog" id="blog">
+          <div class="from-our-blog__container">
+            <div class="text-block from-our-blog__main-text-block">
+              <span class="subtitle from-our-blog__subtitle">LATEST NEWS</span>
+              <h2 class="title from-our-blog__header">From Our Blog</h2>
+            </div>
+            <div class="from-our-blog__content">
+              <div class="from-our-blog__item">
+                <div class="from-our-blog__image">
+                  <img
+                    src="./img/main/from-our-blog/from-our-blog-1.png"
+                    alt="house"
+                  />
+                  <img
+                    class="image__decor"
+                    src="./img/main/from-our-blog/decor.png"
+                    alt="house"
+                  />
+                </div>
+                <div class="text-block from-our-blog__text-block">
+                  <h2 class="title from-our-blog__title">
+                    2020 Interior Design Trends
+                  </h2>
+                  <p class="text from-our-blog__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="from-our-blog__button">
+                    <div class="button">
+                      <a href="#">CONTINUE READING...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="from-our-blog__item">
+                <div class="from-our-blog__image">
+                  <img
+                    src="./img/main/from-our-blog/from-our-blog2.png"
+                    alt="house"
+                  />
+                  <img
+                    class="image__decor"
+                    src="./img/main/from-our-blog/decor.png"
+                    alt="house"
+                  />
+                </div>
+                <div class="text-block from-our-blog__text-block">
+                  <h2 class="title from-our-blog__title">
+                    28 Notable Product at ARC Interior Design
+                  </h2>
+                  <p class="text from-our-blog__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="from-our-blog__button">
+                    <div class="button">
+                      <a href="#">CONTINUE READING...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="dont-forget" id="sign-up">
+          <div class="dont-forget__container">
+            <div class="dont-forget__text-block">
+              <h2 class="dont-forget__title">DON'T FORGET TO SIGN UP</h2>
+              <span class="dont-forget__subtitle"
+                >Find out early about all upcoming promotions and new product
+                releases with our newsletter.</span
+              >
+            </div>
+            <form action="#" class="dont-forget__form">
+              <div class="form-level">
+                <input
+                  type="text"
+                  placeholder="Enter your name..."
+                  class="dont-forget__name"
+                  name="name"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Enter your surname..."
+                  class="dont-forget__surname"
+                  name="surname"
+                  required
+                />
+              </div>
+              <div class="form-level">
+                <input
+                  type="email"
+                  placeholder="Enter your email..."
+                  class="dont-forget__email"
+                  required
+                />
+              </div>
+              <div class="form-level" id="map">
+                <button type="submit" class="button submitButton">
+                  SUBSCRIBE
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="map-section" id="map">
+          <h3>We are here!</h3>
+          <section class="map"></section>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__container">
+          <div class="footer__content">
+            <div class="footer__columns">
+              <div class="footer__column column-first">
+                <div class="footer__logo">
+                  <a href="#"><img src="img/footer/logo.svg" alt="logo" /></a>
+                </div>
+                <span
+                  >But i must explain to you all this mistaken idea of
+                  dencouncing pleasure.</span
+                >
+              </div>
+              <div class="footer__column column-second">
+                <div class="column-second__subcolumn">
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li><a href="#">About Our Company</a></li>
+                    <li><a href="#">Services WE Provide</a></li>
+                    <li><a href="#">Career & Opportunity</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Contact US</a></li>
+                  </ul>
+                </div>
+                <div class="column-second__subcolumn">
+                  <h3>Company</h3>
+                  <ul>
+                    <li><a href="#">About Company</a></li>
+                    <li><a href="#">Our Testimonials</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Our mission</a></li>
+                    <li><a href="#">Get a free Quot</a></li>
+                  </ul>
+                </div>
+                <div class="column-second__subcolumn">
+                  <h3>Conatact us</h3>
+                  <ul>
+                    <li><a href="#">Sagrada Familia, Herba</a></li>
+                    <li><a href="#">Street Front USA</a></li>
+                    <li>
+                      <a href="mailto: brandoxide@gmail.com"
+                        >brandoxide@gmail.com</a
+                      >
+                    </li>
+                    <li><a href="#">002-568423591</a></li>
+                  </ul>
+                </div>
+                <div class="column-second__subcolumn social-subcolumn">
+                  <h3>Follow Us</h3>
+                  <ul>
+                    <a
+                      href="https://www.facebook.com/oleksandr.slavych.3"
+                      target="_blank"
+                    >
+                      <li><img src="./img/footer/facebook.svg" alt="fb" /></li
+                    ></a>
+                    <a href="https://twitter.com/Axmetik_" target="_blank">
+                      <li><img src="./img/footer/twitter.svg" alt="tw" /></li
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/oleksandr_slavych/"
+                      target="_blank"
+                    >
+                      <li>
+                        <img src="./img/footer/instagram.svg" alt="inst" /></li
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/oleksandr-slavych-867656273/"
+                      target="_blank"
+                    >
+                      <li><img src="./img/footer/linkedin.svg" alt="in" /></li
+                    ></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copyright"></div>
+        </div>
+      </footer>
+      <div class="sigma-discount">
+        <p></p>
+        <div>|</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/script/minuteTimeOut.js"></script>
+    <script src="/script/loader.js"></script>
+    <script src="/script/header/scroll.js"></script>
+    <script src="/script/main/whatWeDo.js"></script>
+    <script src="/script/main/swiper.js"></script>
+    <script src="/script/main/form.js"></script>
+    <script src="/script/main/map.js"></script>
+    <script src="/script/footer/footer.js"></script>
+    <script src="/script/main/blog.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlv4uCRC_wopnAB4a8UdBT7EIZIz_mqfQ&callback=initMap"
+    ></script>
+  </body>
+</html>

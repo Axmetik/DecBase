@@ -1,0 +1,48 @@
+.create-your {
+  margin: 3em 0 10em 0;
+  padding: 6.5em 0 0 0;
+  position: relative;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text-block {
+    max-width: 50%;
+  }
+
+  &__subtitle {
+  }
+
+  &__title {
+    font-size: 4em;
+  }
+
+  &__text {
+  }
+
+  &__image {
+    position: relative;
+    img {
+      width: 40em;
+      height: 33em;
+    }
+    .image__decor {
+      position: absolute;
+      top: 2em;
+      right: -2em;
+      z-index: -1;
+    }
+  }
+
+  .decor {
+    position: absolute;
+    bottom: -2em;
+    left: 0;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.testimonials {
+  font-family: "Open Sans", sans-serif;
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text-block {
+    text-align: center;
+  }
+
+  &__subtitle {
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0.4em 0;
+    min-width: 100%;
+    font-size: 2em;
+  }
+
+  &__content {
+    align-self: center;
+    max-width: 70%;
+  }
+
+  &__swiper {
+    position: relative;
+  }
+
+  &__swiper-wrapper {
+  }
+
+  &__slide {
+    .slide-wrapper {
+      height: 150px;
+      margin: $slide-margin;
+      position: relative;
+      border-radius: 4em 0 4em 0;
+      -webkit-box-shadow: 6px 10px 35px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 6px 10px 35px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 6px 10px 35px -9px rgba(0, 0, 0, 0.75);
+      padding: 2em;
+    }
+
+    img {
+      position: absolute;
+      top: 25%;
+      left: -2em;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  &__paragraph {
+    padding-left: $slide-content-padding;
+    padding-top: 0.5em;
+    position: relative;
+
+    .quotes {
+      position: absolute;
+      content: "";
+      top: -0.5em;
+      right: -0.5em;
+      font-size: 2.5em;
+      color: $quotes-color;
+    }
+  }
+
+  &__name {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  &__position {
+    font-size: 0.9em;
+    color: $text-color;
+  }
+
+  &__text {
+    font-size: 0.8em;
+    color: $text-color;
+    padding-top: 0.8em;
+  }
+
+  &__arrows {
+    user-select: none;
+    display: flex;
+    gap: 1em;
+    color: #fff;
+    position: absolute;
+    top: 0.7em;
+    right: $slide-margin;
+    z-index: 10;
+    div {
+      cursor: pointer;
+      color: #767676;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 0.4em;
+      font-weight: 900;
+      font-size: 0.8em;
+      transition-duration: 0.7s;
+      //border: 0.1px solid #767676;
+      -webkit-box-shadow: 0px 0px 13px -1px rgba(118, 118, 118, 1);
+      -moz-box-shadow: 0px 0px 13px -1px rgba(118, 118, 118, 1);
+      box-shadow: 0px 0px 13px -1px rgba(118, 118, 118, 1);
+
+      &:before,
+      &:after {
+        content: "-";
+        color: transparent;
+        transition-duration: 0;
+      }
+
+      &:hover {
+        background-color: #37806b;
+        color: #fff;
+        -webkit-box-shadow: 0px 0px 13px -1px #37806b;
+        -moz-box-shadow: 0px 0px 13px -1px #37806b;
+        box-shadow: 0px 0px 13px -1px #37806b;
+      }
+
+      &:active {
+      }
+    }
+  }
+}

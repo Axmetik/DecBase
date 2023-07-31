@@ -1,0 +1,25 @@
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.main {
+  flex: 1 1 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+[class*="__container"] {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+section {
+  padding: 10em 0;
+}
+
+.decor {
+  z-index: -1;
+}

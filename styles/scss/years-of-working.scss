@@ -1,0 +1,69 @@
+.years-of-working {
+  position: relative;
+  //margin: 25em 0 15em 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3 {
+    background-image: url("/img/main/from-our-blog/from-our-blog-1.png");
+    -webkit-background-clip: text;
+    background-position: -40px 220px;
+    background-size: 600px 600px;
+    -webkit-text-fill-color: transparent;
+    font-size: 15em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+  }
+
+  &__text {
+  }
+
+  &__title {
+    font-size: 3em;
+    line-height: 1.4em;
+  }
+
+  &__button {
+  }
+
+  &__image {
+  }
+
+  &__image {
+    position: relative;
+    img {
+      width: 40em;
+      height: 33em;
+    }
+    .image__decor {
+      position: absolute;
+      top: 2em;
+      right: -2em;
+      z-index: -1;
+    }
+  }
+
+  .decor {
+    position: absolute;
+    top: -15em;
+    left: 0;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

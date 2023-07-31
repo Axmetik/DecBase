@@ -1,0 +1,19 @@
+.text-block {
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    //font-size: 4em;
+    max-width: 80%;
+    padding-bottom: 0.4em;
+  }
+  .subtitle {
+    color: $text-block-color;
+    font-weight: 500;
+  }
+  .text {
+    color: $text-block-color;
+    max-width: 80%;
+    line-height: 1.5em;
+    padding-bottom: 3em;
+  }
+}
